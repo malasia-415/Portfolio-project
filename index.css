@@ -1,39 +1,79 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-size: 20px;
-    color: #444;
-    text-align: center;
-    line-height: 1.5;
-  }
-  
-  nav,
-  footer {
-    padding: 1% 0;
-    background-color:grey;
-  }
-  
-  nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 15;
-  }
-  
-  
-  
-  header {
-    padding: 12% 0;
-  }
-  
-  section {
-    min-height: 200px;
-    padding: 6% 0;
-    background-color: #bbb;
-  }
-  
-  
-  
+  box-sizing: border-box;
+}
+
+body { box-sizing: border-box;
+font-family: 'Oswald', sans-serif;
+margin-top: 10px;
+  font-size: 20px;
+  color: #444;
+  text-align: center;
+  line-height: 20px;
+}
+
+.nav {
+position: fixed;
+width: 20px;
+background-color: grey;
+z-index: 9990;
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+background-color: #111;
+}
+.active {
+background-color: #4CAF50;
+}
+
+
+footer {
+  padding: 16px;
+  background-color:grey;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 15;
+}
+
+p{
+  font-size: 20px;
+  color: blue;
+}
+
+
+header {
+  padding: 12% 0;
+}
+
+section {
+  min-height: 200px;
+  padding: 6% 0;
+  background-color: #bbb;
+}
+
+
