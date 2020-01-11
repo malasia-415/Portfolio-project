@@ -6,10 +6,12 @@ body { box-sizing: border-box;
 font-family: 'Oswald', sans-serif;
 margin-top: 10px;
   font-size: 20px;
-  color: #444;
+  color: white;
   text-align: center;
-  line-height: 20px;
+  line-height: 40px;
+  background-image: url("https://images-na.ssl-images-amazon.com/images/I/91Xc%2BR996gL._SX425_.jpg");
 }
+
 
 .nav {
 position: fixed;
@@ -23,7 +25,7 @@ list-style-type: none;
 margin: 0;
 padding: 0;
 overflow: hidden;
-background-color: #333;
+background-color: white;
 }
 
 li {
@@ -38,7 +40,12 @@ padding: 14px 16px;
 text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
+.navbar > .content {
+  width: 970px;
+  height: 70px;
+  margin: 0 auto;
+}
+
 li a:hover {
 background-color: #111;
 }
@@ -46,13 +53,13 @@ background-color: #111;
 background-color: #4CAF50;
 }
 
-
+nav,
 footer {
-  padding: 16px;
+  padding: 10px;
   background-color:grey;
 }
 
-.nav {
+nav {
   position: fixed;
   top: 0;
   left: 0;
@@ -60,18 +67,12 @@ footer {
   z-index: 15;
 }
 
-p{
-  font-size: 20px;
-  color: blue;
-}
-
-
 header {
   padding: 12% 0;
 }
 
 section {
-  min-height: 200px;
+  min-height: 100px;
   padding: 6% 0;
   background-color: #bbb;
 }
