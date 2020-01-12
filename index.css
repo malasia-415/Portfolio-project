@@ -1,6 +1,4 @@
-* {
-  box-sizing: border-box;
-}
+
 
 body { box-sizing: border-box;
 font-family: 'Oswald', sans-serif;
@@ -8,10 +6,9 @@ margin-top: 10px;
   font-size: 20px;
   color: white;
   text-align: center;
-  line-height: 40px;
-  background-image: url("https://images-na.ssl-images-amazon.com/images/I/91Xc%2BR996gL._SX425_.jpg");
+  line-height: 30px;
+  background-image: url("https://cache.desktopnexus.com/thumbseg/1405/1405459-bigthumbnail.jpg");
 }
-
 
 .nav {
 position: fixed;
@@ -22,10 +19,11 @@ z-index: 9990;
 
 ul {
 list-style-type: none;
-margin: 0;
+margin: auto auto;
 padding: 0;
-overflow: hidden;
+overflow: auto;
 background-color: white;
+position: static;
 }
 
 li {
@@ -55,7 +53,7 @@ background-color: #4CAF50;
 
 nav,
 footer {
-  padding: 10px;
+  padding: 5px;
   background-color:grey;
 }
 
@@ -64,7 +62,7 @@ nav {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 15;
+  z-index: 10;
 }
 
 header {
@@ -72,8 +70,8 @@ header {
 }
 
 section {
-  min-height: 100px;
-  padding: 6% 0;
+  min-height: 50px;
+  padding: 0% 0;
   background-color: #bbb;
 }
 
